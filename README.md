@@ -1,3 +1,15 @@
+# TUTORIAL 4
+
+* *Last Modification Date*: 06 FEB 2023
+* *Tutorial 4:
+* *Deployed app link : https://stellular-boba-29a3b2.netlify.app/
+* *Gitlab Link : https://git.cs.dal.ca/vaghasia/csci5709-w23-tutorials/-/tree/Tutorial_4
+
+## Author
+
+* [SAGARKUMAR VAGHASIA](sg682034@dal.ca) - *(OWNER)*
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -61,10 +73,62 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Deployment
+
+<!-- This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment) -->
+
+The react app[1] is deployed on netlify[2].I have developed simple react web application of 3 pages namely Login, Profile and UserDetail. The code was first hosted on GitLab and then on GitHub and lastly the netlify account was linked with repository from github.At the end, the web application was deployed in few moements and then if are any changes then netlify automatically build the react application and deploy it. 
+
+
+
+# Built With
+
+<!--- Provide a list of the frameworks used to build this application, your list should include the name of the framework used, the url where the framework is available for download and what the framework was used for, see the example below --->
+
+* [Reactjs](https://reactjs.org/docs/create-a-new-react-app.html) - The web framework used
+**
+
+# Sources Used
+
+I created login page having email and password. On successful login, the user details are fetched from the API [3]. This fetched details are displayed on the profile listing page. I used list format [4] to display the data. In order to go to the profile listing page i used "navigate" function to move from one page to another [5]. 
+Apart from this, i used react hooks [6] to set the user data. On clicking to one of the user, I was directed to the user detail page where i can see details of that particular user based on the id. The stored data is saved acrossed browser [8]. 
+Further, i implemented search and filter in the profile listing page [7] to search the user based on firstname or lastname.
+
+
+# Acknowledgments
+
+## References :
+
+[1]“Create a new react app,” Reactjs.org. [Online]. Available: https://reactjs.org/docs/create-a-new-react-app.html. [Accessed: 05-Feb-2023].
+
+[2] “Develop and deploy websites and apps in record time,” Netlify. [Online]. Available: https://www.netlify.com/. [Accessed: 05-Feb-2023].
+
+[3] “Fetch API,” Mozilla.org. [Online]. Available: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API. [Accessed: 06-Mar-2023].
+
+
+[4]	J. Johnson, “5 simple and practical CSS list styles you can copy and paste,” Design Shack, 22-Feb-2013. [Online]. Available: https://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/. [Accessed: 06-Mar-2023].
+
+
+[5] “How to navigate from one page to another in react js?,” Stack Overflow. [Online]. Available: https://stackoverflow.com/questions/37295377/how-to-navigate-from-one-page-to-another-in-react-js. [Accessed: 06-Mar-2023].
+
+
+[6] “Introducing hooks,” Reactjs.org. [Online]. Available: https://reactjs.org/docs/hooks-intro.html. [Accessed: 06-Mar-2023].
+
+
+[7]	M. Gathoni, “How to filter search results while typing with React,” MUO, 23-Sep-2022. [Online]. Available: https://www.makeuseof.com/react-search-bar-filters-data-create/. [Accessed: 06-Mar-2023].
+
+
+[8]	“Window.localStorage,” Mozilla.org. [Online]. Available: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage. [Accessed: 06-Mar-2023].
+
+
+
+ 
+
+
+
+
