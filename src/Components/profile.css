@@ -1,0 +1,27 @@
+div {
+    margin: 20px;
+    justify-content: center;
+  }
+   
+  ul {
+    list-style-type: none;
+    width: 500px;
+    justify-content: center;
+    margin-left: 550px;
+  }
+  h3 {
+    font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  }
+  li img {
+    float: left;
+    margin: 0 15px 0 0;
+  }
+  li {
+    padding: 10px;
+    overflow: auto;
+    /* justify-content: center; */
+  }
+  li:hover {
+    background: #eee;
+    cursor: pointer;
+  }
